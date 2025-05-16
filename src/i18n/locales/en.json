@@ -1,0 +1,230 @@
+{
+  "app": {
+    "name": "EscalAI",
+    "tagline": "AI-driven PQR Management Platform"
+  },
+  "auth": {
+    "signin": "Sign In",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "welcomeBack": "Welcome Back",
+    "signInMessage": "Sign in to manage PQRs with AI",
+    "dontHaveAccount": "Don't have an account?",
+    "createAccount": "Create Account",
+    "alreadyHaveAccount": "Already have an account?",
+    "signout": "Sign Out"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "tickets": "Tickets",
+    "escalation": "Escalation",
+    "reports": "Reports",
+    "users": "Users",
+    "settings": "Settings",
+    "clients": "Clients"
+  },
+  "dashboard": {
+    "welcomeMessage": "Aquí puedes ver el estado de tus tickets y estadísticas importantes",
+    "totalTickets": "Total de Tickets",
+    "slaCompliance": "Cumplimiento SLA",
+    "escalated": "Tickets Escalados",
+    "avgResponseTime": "Tiempo Promedio de Respuesta",
+    "ticketsOverTime": "Tickets en el Tiempo",
+    "recentTickets": "Tickets Recientes",
+    "agentWorkload": "Agent Workload",
+    "topCategories": "Top Categories",
+    "admin": {
+      "title": "Admin Panel"
+    },
+    "stats": {
+      "totalTickets": "Total Tickets",
+      "openTickets": "Open Tickets",
+      "inProgressTickets": "In Progress",
+      "resolvedTickets": "Resolved Tickets",
+      "urgentTickets": "Urgent Tickets",
+      "totalUsers": "Total Users",
+      "activeAgents": "Active Agents"
+    }
+  },
+  "tickets": {
+    "create": "Create Ticket",
+    "view": "View Ticket",
+    "edit": "Edit Ticket",
+    "delete": "Delete Ticket",
+    "title": "Title",
+    "description": "Description",
+    "type": "Type",
+    "types": {
+      "petition": "Petition",
+      "complaint": "Complaint",
+      "claim": "Claim"
+    },
+    "priority": "Priority",
+    "priorities": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "status": "Status",
+    "statuses": {
+      "open": "Open",
+      "in_progress": "In Progress",
+      "resolved": "Resolved",
+      "closed": "Closed",
+      "reopened": "Reopened",
+      "escalated": "Escalated"
+    },
+    "category": "Category",
+    "subcategory": "Subcategory",
+    "assignedTo": "Assigned To",
+    "createdBy": "Created By",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "dueDate": "Due Date",
+    "escalationLevel": "Escalation Level",
+    "attachments": "Attachments",
+    "comments": "Comments",
+    "addComment": "Add Comment",
+    "internal": "Internal",
+    "slaStatus": {
+      "onTime": "On Time",
+      "nearDeadline": "Near Deadline",
+      "overdue": "Overdue"
+    }
+  },
+  "escalation": {
+    "matrix": "Escalation Matrix",
+    "level": "Level",
+    "timeLimit": "Time Limit",
+    "responsible": "Responsible",
+    "configure": "Configure Escalation Matrix",
+    "history": "Escalation History",
+    "reason": "Reason",
+    "escalateTicket": "Escalate Ticket"
+  },
+  "clients": {
+    "manage": "Manage Clients",
+    "create": "Create Client",
+    "view": "View Client",
+    "edit": "Edit Client",
+    "delete": "Delete Client",
+    "name": "Name",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "createdAt": "Created At"
+  },
+  "users": {
+    "manage": "Manage Users",
+    "create": "Create User",
+    "view": "View User",
+    "edit": "Edit User",
+    "delete": "Delete User",
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "roles": {
+      "platformAdmin": "Platform Admin",
+      "clientSupervisor": "Manager",
+      "clientAgent": "Supervisor",
+      "clientExecutive": "Executive",
+      "externalClient": "External Client / AI Agent",
+      "agent": "Agent",
+      "client": "Client"
+    },
+    "client": "Client",
+    "lastLogin": "Last Login"
+  },
+  "reports": {
+    "generate": "Generate Report",
+    "export": "Export",
+    "filters": "Filters",
+    "dateRange": "Date Range",
+    "ticketType": "Ticket Type",
+    "category": "Category",
+    "agent": "Agent",
+    "client": "Client",
+    "compareWith": "Compare With"
+  },
+  "common": {
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "create": "Create",
+    "update": "Update",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "loading": "Loading",
+    "noResults": "No results found",
+    "all": "All",
+    "yes": "Yes",
+    "no": "No",
+    "actions": "Actions",
+    "status": "Status",
+    "id": "ID",
+    "name": "Name",
+    "date": "Date",
+    "time": "Time",
+    "details": "Details",
+    "description": "Description",
+    "type": "Type",
+    "category": "Category",
+    "subcategory": "Subcategory",
+    "priority": "Priority",
+    "uploadFile": "Upload File",
+    "dragAndDrop": "Drag and drop files here, or click to browse"
+  },
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "invalidPassword": "Password must be at least 8 characters",
+    "unauthorizedAccess": "Unauthorized access",
+    "somethingWentWrong": "Something went wrong",
+    "sessionExpired": "Your session has expired, please sign in again",
+    "fetchData": "Error fetching data",
+    "createUser": "Error creating user",
+    "loadTicketTypes": "Error loading ticket types",
+    "saveTicketType": "Error saving ticket type",
+    "deleteTicketType": "Error deleting ticket type"
+  },
+  "validation": {
+    "required": "This field is required",
+    "email": "Invalid email address",
+    "passwordLength": "Password must be at least 6 characters"
+  },
+  "confirmations": {
+    "deleteTicketType": "Are you sure you want to delete this ticket type?"
+  },
+  "settings": {
+    "ticketTypes": "Ticket Types",
+    "priorities": "Priorities",
+    "categories": "Categories"
+  },
+  "ticketTypes": {
+    "create": "Create Ticket Type",
+    "edit": "Edit Ticket Type",
+    "name": "Name",
+    "description": "Description"
+  },
+  "filters": {
+    "all": "All",
+    "selectStatus": "Select Status",
+    "selectPriority": "Select Priority"
+  },
+  "success": {
+    "userCreated": "User created successfully",
+    "ticketTypeCreated": "Ticket type created successfully",
+    "ticketTypeUpdated": "Ticket type updated successfully",
+    "ticketTypeDeleted": "Ticket type deleted successfully"
+  }
+}
