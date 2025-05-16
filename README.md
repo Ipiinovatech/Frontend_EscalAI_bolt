@@ -1,2 +1,1 @@
-# Frontend_EscalAI_bolt
-Frontend para EscalAI ticket para bolt
+Contenido combinado del README que yo quiero conservar.

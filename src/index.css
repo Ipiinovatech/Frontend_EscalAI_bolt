@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background-dark text-text-primary font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-text-primary;
+  }
+
+  h1 {
+    @apply text-3xl sm:text-4xl md:text-5xl leading-tight;
+  }
+
+  h2 {
+    @apply text-2xl sm:text-3xl md:text-4xl leading-tight;
+  }
+
+  h3 {
+    @apply text-xl sm:text-2xl md:text-3xl leading-tight;
+  }
+
+  h4 {
+    @apply text-lg sm:text-xl md:text-2xl leading-tight;
+  }
+
+  h5 {
+    @apply text-base sm:text-lg md:text-xl leading-tight;
+  }
+
+  h6 {
+    @apply text-sm sm:text-base md:text-lg leading-tight;
+  }
+
+  p {
+    @apply text-base leading-relaxed;
+  }
+
+  a {
+    @apply text-primary-500 hover:text-primary-600 transition-colors;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 inline-flex items-center justify-center;
+  }
+
+  .btn-primary {
+    @apply bg-primary-500 text-white hover:bg-primary-600 focus:ring-2 focus:ring-primary-500 focus:ring-opacity-50;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary-500 text-white hover:bg-secondary-600 focus:ring-2 focus:ring-secondary-500 focus:ring-opacity-50;
+  }
+
+  .btn-accent {
+    @apply bg-accent-500 text-background-dark hover:bg-accent-600 focus:ring-2 focus:ring-accent-500 focus:ring-opacity-50;
+  }
+
+  .btn-success {
+    @apply bg-success-500 text-white hover:bg-success-600 focus:ring-2 focus:ring-success-500 focus:ring-opacity-50;
+  }
+
+  .btn-warning {
+    @apply bg-warning-500 text-background-dark hover:bg-warning-600 focus:ring-2 focus:ring-warning-500 focus:ring-opacity-50;
+  }
+
+  .btn-error {
+    @apply bg-error-500 text-white hover:bg-error-600 focus:ring-2 focus:ring-error-500 focus:ring-opacity-50;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent border border-gray-600 text-text-primary hover:bg-gray-800 focus:ring-2 focus:ring-gray-500 focus:ring-opacity-50;
+  }
+
+  .card {
+    @apply bg-background-card rounded-xl p-6 shadow-md;
+  }
+
+  .input {
+    @apply bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 w-full text-text-primary placeholder-text-muted focus:outline-none focus:ring-2 focus:ring-primary-500;
+  }
+
+  .select {
+    @apply bg-gray-800 border border-gray-700 rounded-lg px-4 py-2 w-full text-text-primary focus:outline-none focus:ring-2 focus:ring-primary-500;
+  }
+
+  .badge {
+    @apply px-2 py-1 rounded-full text-xs font-medium inline-flex items-center;
+  }
+
+  .badge-success {
+    @apply bg-success-500 text-white;
+  }
+
+  .badge-warning {
+    @apply bg-warning-500 text-background-dark;
+  }
+
+  .badge-error {
+    @apply bg-error-500 text-white;
+  }
+
+  .status-on-time {
+    @apply text-success-500;
+  }
+
+  .status-near-deadline {
+    @apply text-warning-500;
+  }
+
+  .status-overdue {
+    @apply text-error-500;
+  }
+
+  .dashboard-container {
+    @apply max-w-7xl mx-auto px-4 py-8;
+  }
+  .dashboard-header {
+    @apply flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-8;
+  }
+  .dashboard-header h1 {
+    @apply text-2xl md:text-3xl font-bold mb-2 md:mb-0;
+  }
+  .dashboard-header .ant-space {
+    @apply flex flex-row gap-2;
+  }
+  .dashboard-stats-row {
+    @apply flex flex-wrap gap-4 mb-8;
+  }
+  .dashboard-stats-row .ant-card {
+    @apply bg-background-card rounded-lg shadow p-4 min-w-[120px] text-center;
+  }
+  .dashboard-stats-row .ant-statistic-title {
+    @apply text-sm text-text-muted;
+  }
+  .dashboard-stats-row .ant-statistic-content {
+    @apply text-xl font-semibold;
+  }
+  .ant-tabs {
+    @apply bg-background-card rounded-lg p-4;
+  }
+  .ant-tabs-nav {
+    @apply mb-4;
+  }
+  .ant-table {
+    @apply bg-background-card rounded-lg shadow;
+  }
+  .ant-table-thead > tr > th {
+    @apply bg-gray-900 text-text-primary;
+  }
+  .ant-table-tbody > tr > td {
+    @apply bg-background-card;
+  }
+  .ant-btn-primary {
+    @apply bg-primary-500 hover:bg-primary-600 border-none shadow;
+  }
+  .ant-btn {
+    @apply rounded-lg;
+  }
+  .ant-modal-content {
+    @apply bg-background-card rounded-lg;
+  }
+  .ant-form-item-label > label {
+    @apply text-text-primary;
+  }
+}

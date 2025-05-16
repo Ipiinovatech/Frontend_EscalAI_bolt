@@ -1,0 +1,231 @@
+{
+  "app": {
+    "name": "EscalAI",
+    "tagline": "Plataforma de Gestión PQR impulsada por IA"
+  },
+  "auth": {
+    "signin": "Iniciar Sesión",
+    "signup": "Registrarse",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "forgotPassword": "¿Olvidó su contraseña?",
+    "welcomeBack": "Bienvenido de Nuevo",
+    "signInMessage": "Inicie sesión para gestionar PQRs con IA",
+    "dontHaveAccount": "¿No tiene una cuenta?",
+    "createAccount": "Crear Cuenta",
+    "alreadyHaveAccount": "¿Ya tiene una cuenta?",
+    "signout": "Cerrar Sesión"
+  },
+  "navigation": {
+    "dashboard": "Panel de Control",
+    "tickets": "Tickets",
+    "escalation": "Escalación",
+    "reports": "Informes",
+    "users": "Usuarios",
+    "settings": "Configuración",
+    "clients": "Clientes"
+  },
+  "dashboard": {
+    "totalTickets": "Total de Tickets",
+    "slaCompliance": "Cumplimiento SLA",
+    "escalated": "Escalados",
+    "avgResponseTime": "Tiempo Medio de Respuesta",
+    "ticketsOverTime": "Tickets a lo Largo del Tiempo",
+    "recentTickets": "Tickets Recientes",
+    "agentWorkload": "Carga de Trabajo por Agente",
+    "topCategories": "Categorías Principales",
+    "admin": {
+      "title": "Panel de Administración"
+    },
+    "stats": {
+      "totalTickets": "Total de Tickets",
+      "openTickets": "Tickets Abiertos",
+      "inProgressTickets": "En Progreso",
+      "resolvedTickets": "Tickets Resueltos",
+      "urgentTickets": "Tickets Urgentes",
+      "totalUsers": "Total de Usuarios",
+      "activeAgents": "Agentes Activos"
+    },
+    "welcomeMessage": "Aquí puedes ver el estado de tus tickets y estadísticas importantes"
+  },
+  "tickets": {
+    "create": "Crear Ticket",
+    "view": "Ver Ticket",
+    "edit": "Editar Ticket",
+    "delete": "Eliminar Ticket",
+    "title": "Título",
+    "description": "Descripción",
+    "type": "Tipo",
+    "types": {
+      "petition": "Petición",
+      "complaint": "Queja",
+      "claim": "Reclamo"
+    },
+    "priority": "Prioridad",
+    "priorities": {
+      "high": "Alta",
+      "medium": "Media",
+      "low": "Baja"
+    },
+    "status": "Estado",
+    "statuses": {
+      "open": "Abierto",
+      "in_progress": "En Progreso",
+      "resolved": "Resuelto",
+      "closed": "Cerrado",
+      "reopened": "Reabierto",
+      "escalated": "Escalado"
+    },
+    "category": "Categoría",
+    "subcategory": "Subcategoría",
+    "assignedTo": "Asignado a",
+    "createdBy": "Creado por",
+    "createdAt": "Fecha de creación",
+    "updatedAt": "Última actualización",
+    "dueDate": "Fecha límite",
+    "escalationLevel": "Nivel de Escalación",
+    "attachments": "Adjuntos",
+    "comments": "Comentarios",
+    "addComment": "Añadir Comentario",
+    "internal": "Interno",
+    "slaStatus": {
+      "onTime": "A Tiempo",
+      "nearDeadline": "Cerca del Límite",
+      "overdue": "Vencido"
+    },
+    "clientName": "Cliente"
+  },
+  "escalation": {
+    "matrix": "Matriz de Escalación",
+    "level": "Nivel",
+    "timeLimit": "Límite de Tiempo",
+    "responsible": "Responsable",
+    "configure": "Configurar Matriz de Escalación",
+    "history": "Historial de Escalación",
+    "reason": "Motivo",
+    "escalateTicket": "Escalar Ticket"
+  },
+  "clients": {
+    "manage": "Gestionar Clientes",
+    "create": "Crear Cliente",
+    "view": "Ver Cliente",
+    "edit": "Editar Cliente",
+    "delete": "Eliminar Cliente",
+    "name": "Nombre",
+    "status": "Estado",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "createdAt": "Creado el"
+  },
+  "users": {
+    "manage": "Gestionar Usuarios",
+    "create": "Crear Usuario",
+    "view": "Ver Usuario",
+    "edit": "Editar Usuario",
+    "delete": "Eliminar Usuario",
+    "name": "Nombre",
+    "email": "Correo Electrónico",
+    "role": "Rol",
+    "roles": {
+      "platformAdmin": "Administrador de Plataforma",
+      "clientSupervisor": "Gerente",
+      "clientAgent": "Supervisor",
+      "clientExecutive": "Ejecutivo",
+      "externalClient": "Cliente Externo / Agente IA",
+      "agent": "Agente",
+      "client": "Cliente"
+    },
+    "client": "Cliente",
+    "lastLogin": "Último Acceso"
+  },
+  "reports": {
+    "generate": "Generar Informe",
+    "export": "Exportar",
+    "filters": "Filtros",
+    "dateRange": "Rango de Fechas",
+    "ticketType": "Tipo de Ticket",
+    "category": "Categoría",
+    "agent": "Agente",
+    "client": "Cliente",
+    "compareWith": "Comparar Con"
+  },
+  "common": {
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "apply": "Aplicar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "create": "Crear",
+    "update": "Actualizar",
+    "confirm": "Confirmar",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "loading": "Cargando",
+    "noResults": "No se encontraron resultados",
+    "all": "Todos",
+    "yes": "Sí",
+    "no": "No",
+    "actions": "Acciones",
+    "status": "Estado",
+    "id": "ID",
+    "name": "Nombre",
+    "date": "Fecha",
+    "time": "Hora",
+    "details": "Detalles",
+    "description": "Descripción",
+    "type": "Tipo",
+    "category": "Categoría",
+    "subcategory": "Subcategoría",
+    "priority": "Prioridad",
+    "uploadFile": "Subir Archivo",
+    "dragAndDrop": "Arrastre y suelte archivos aquí, o haga clic para navegar"
+  },
+  "errors": {
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Dirección de correo electrónico inválida",
+    "invalidPassword": "La contraseña debe tener al menos 8 caracteres",
+    "unauthorizedAccess": "Acceso no autorizado",
+    "somethingWentWrong": "Algo salió mal",
+    "sessionExpired": "Su sesión ha expirado, por favor inicie sesión nuevamente",
+    "fetchData": "Error al obtener los datos",
+    "createUser": "Error al crear el usuario",
+    "loadTicketTypes": "Error al cargar los tipos de ticket",
+    "saveTicketType": "Error al guardar el tipo de ticket",
+    "deleteTicketType": "Error al eliminar el tipo de ticket"
+  },
+  "validation": {
+    "required": "Este campo es obligatorio",
+    "email": "Correo electrónico inválido",
+    "passwordLength": "La contraseña debe tener al menos 6 caracteres"
+  },
+  "confirmations": {
+    "deleteTicketType": "¿Estás seguro de que deseas eliminar este tipo de ticket?"
+  },
+  "settings": {
+    "ticketTypes": "Tipos de Ticket",
+    "priorities": "Prioridades",
+    "categories": "Categorías"
+  },
+  "ticketTypes": {
+    "create": "Crear Tipo de Ticket",
+    "edit": "Editar Tipo de Ticket",
+    "name": "Nombre",
+    "description": "Descripción"
+  },
+  "filters": {
+    "all": "Todos",
+    "selectStatus": "Selecciona Estado",
+    "selectPriority": "Selecciona Prioridad"
+  },
+  "success": {
+    "userCreated": "Usuario creado correctamente",
+    "ticketTypeCreated": "Tipo de ticket creado correctamente",
+    "ticketTypeUpdated": "Tipo de ticket actualizado correctamente",
+    "ticketTypeDeleted": "Tipo de ticket eliminado correctamente"
+  }
+}
